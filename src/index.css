@@ -6,12 +6,16 @@
   .bg-rgb {
     background: rgba(0, 0, 0, 0.4);
   }
-
   .getInvolved {
     background-color: rgba(2, 103, 193, 0.8);
   }
-  .text{
+  .text {
     background-image: url("./assets/images/banner1.jpg");
     background-position: center;
+  }
+  .secondbanner {
+    background-image: url("./assets//images/bannerbg.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
   }
 }

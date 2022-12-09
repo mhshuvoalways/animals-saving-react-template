@@ -2,6 +2,7 @@ import React from "react";
 import Header from "../components/Header";
 import Banner from "../components/Banner";
 import RecentPost from "../components/RecentPost";
+import SecondBanner from "../components/SecondBanner";
 import GetInvolved from "../components/GetInvolved";
 import FeatureProgram from "../components/FeatureProgram";
 import SupportCount from "../components/SupportCount";
@@ -15,12 +16,13 @@ const Home = () => {
       <Header />
       <Banner />
       <RecentPost />
+      <SecondBanner />
       <GetInvolved />
       <FeatureProgram />
       <SupportCount />
       <Testimonials />
       <Contact />
-      <Footer home/>
+      <Footer home />
     </div>
   );
 };
